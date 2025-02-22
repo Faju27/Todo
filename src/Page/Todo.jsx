@@ -28,6 +28,7 @@ const Todo = () => {
             createdAt: new Date().toLocaleString(),
             updatedAt: new Date().toLocaleString()
             }
+            console.log(todoObject.completed);
 
             //to find the todo already existed or not.
         const exist = todoList.findIndex((item) => { 
